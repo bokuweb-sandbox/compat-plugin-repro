@@ -1,0 +1,15 @@
+{
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true
+  },
+  "settings": {
+    "polyfills": ["promises"]
+  },
+  "plugins": ["compat"],
+  "rules": {
+    "compat/compat": "error"
+  }
+}

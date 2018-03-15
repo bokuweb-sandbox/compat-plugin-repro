@@ -1,0 +1,16 @@
+{
+  "name": "compat-plugin-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bokuweb/compat-plugin-repro.git",
+  "author": "bokuweb <bokuweb12@gmail.com>",
+  "license": "MIT",
+  "browserslist": ["ie 10"],
+  "scripts": {
+    "eslint": "eslint ./"
+  },
+  "dependencies": {
+    "eslint": "^4.18.2",
+    "eslint-plugin-compat": "^2.2.0"
+  }
+}
